@@ -1,0 +1,20 @@
+{
+    "name": "Fiverr Extension",
+    "version": "1.0",
+    "description": "Just notify me on specific mails",
+    "manifest_version": 2,
+    "incognito": "split",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "icon.png"
+    },
+    "content_scripts": [
+        {
+          "matches": ["http://*/*" , "https://*/*"],
+          "js": ["./index.js"]
+        }
+    ],
+    "icons": {
+        "128": "icon.png"
+    }
+}
