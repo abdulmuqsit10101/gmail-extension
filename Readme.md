@@ -27,4 +27,3 @@ Note: For make this extension work u have to open a new gmail tab first so that 
 Alert: 
 ===== 
 There is a big fault in here, like if u make ur pc sleep and this extension is working it is bad. Even one mail comes it will open 100's of tabs in ur chrome. So please quit chrome before give ur computer sleep. Or tuen Off this extension, before make it sleep. Thanks
-=====
